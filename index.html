@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Cheapest Cities</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="css/second.css">
+</head>
+
+<body>
+
+<h1>Cheapest Cities to Live in America</h1>
+<p>Created by Cindy Lu. Data provided by <a href="https://realestate.usnews.com/real-estate/slideshows/best-affordable-places-to-live-in-the-us?slide=26">U.S. News.</a></p>
+
+<div id="map">
+  <p id="bio">Here is a list of the 20 most affordable places to live in America in 2018. The numbers shown are the percentages of the median annual household income in each city that residents spend on housing, including average utility costs and taxes.</p>
+
+  <div id="cheapmap"></div>
+</div>
+
+<script src="js/places.json"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="js/second.js"></script>
+
+</body>
